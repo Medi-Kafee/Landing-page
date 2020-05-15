@@ -1,0 +1,33 @@
+/* body {
+    display: flex;
+} */
+
+header {
+    display: flex;
+}
+
+#logo-container {
+    flex: 1;
+}
+
+#logo {
+    width: 60px;
+    height: 55px;
+}
+
+nav {
+    margin: 15px;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+#active {
+    color: coral;
+    font-weight: bold;
+}
