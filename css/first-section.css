@@ -1,0 +1,60 @@
+#top-landing {
+    display: flex;
+    height: 600px;
+    margin-top: 10px;
+    background-image: url(../img/wavy.jpg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+#img-content {
+    flex: 1;
+    height: 600px;
+    margin-top: 5px;
+    background-image: url(../img/top-img.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+#sub-title {
+    font-size: 14px;
+    color: darkgray;
+}
+
+#btn-content {
+    margin-top: 15px;
+}
+
+.solid-bg-btn {
+    margin-right: 15px;
+    background-color: #f55115;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.light-bg-btn {
+    margin-right: 15px;
+    background-color: white;
+    color: #f55115;
+    border: 1.5px solid #f55115;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.wave > svg {
+    display: flex;
+  flex-basis: 100%;
+  }
