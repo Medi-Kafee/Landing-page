@@ -1,6 +1,6 @@
 #top-landing {
     display: flex;
-    height: 600px;
+    height: 88vh;
     margin-top: 15px;
     background-image: url(../img/wavy.jpg);
     background-size: contain;
@@ -11,15 +11,17 @@
 #text-content {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 1;
 }
 
 #img-content {
-    flex: 1;
-    height: 600px;
+    flex: 2;
+    /* width: 500px; */
     margin-top: 5px;
-    background-image: url(../img/top-img.svg);
-    background-size: contain;
+    /* margin-left: 30px; */
+    background-image: url(../img/header.png);
+    /* background-image: url(../img/top-img.svg); */
+    /* background-size: fit; */
     background-repeat: no-repeat;
 }
 
