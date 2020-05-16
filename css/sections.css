@@ -90,6 +90,7 @@ h1 {
 
 #read {
     width: 15vw;
+    margin-top: 25px;
 }
 
 #stat-highlight {
@@ -100,4 +101,62 @@ h1 {
 
 #stat-heading {
     margin-top: 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.feat-details {
+    display: flex;
+    flex-direction: row;
+}
+.first-part {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.second-part {
+    flex: 1;
+    background-image: url(../img/feature-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.third-part {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.feat-cards {
+        width: 300px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin: 18px;
+        padding: 15px;
+        border: 1px grey;
+        border-radius: 4px;
+        box-shadow: 3px 3px rgb(235, 232, 232), 0 0 9px rgb(235, 232, 232);
+}
+
+.left-content {
+    text-align: right;
+
+}
+
+.feat-icons {
+    font-size: 30px;
+    margin: 10px 20px 10px;
+}
+
+.right-content {
+    text-align: right;
+
 }
